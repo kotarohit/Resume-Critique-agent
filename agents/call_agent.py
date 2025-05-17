@@ -11,3 +11,5 @@ def summarize_transcript(transcript):
     prompt = f"""Summarize the following transcript. Highlight insights, objections, and action items:\n{transcript}"""
     messages = [{"role": "user", "content": prompt}]
     return call_openrouter(messages)
+
+abcc
